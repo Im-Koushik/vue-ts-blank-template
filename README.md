@@ -1,9 +1,46 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 TypeScript Project Template
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This repository serves as a starting point for Vue 3 projects using TypeScript. It includes various packages and configurations to kickstart your development process.
 
-## Recommended Setup
+## Table of Contents
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+## Project Overview
+
+This project is a Vue 3 template scaffolded with TypeScript, ready to be used as a foundation for your Vue applications. It includes configuration for router setup, Vite configuration for efficient development, and pre-configured packages such as PrimeVue for UI components, PrimeFlex for styling, and Unplugin for auto imports and auto components.
+
+## Features
+
+- Vue 3 with TypeScript
+- Application setup using pnpm and vite
+- Pre-configured router setup
+- Vite configuration for fast development
+- PrimeVue for UI components
+- PrimeFlex for responsive styling
+- Unplugin for auto imports and auto components
+
+## Installation
+
+To get started with this project, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/Im-Koushik/vue-ts-blank-template
+
+# Navigate to the project directory
+cd vue-ts-blank-template
+
+# Install dependencies
+pnpm install
+```
+
+## Usage
+
+```bash
+# Run Application
+pnpm dev
+```
